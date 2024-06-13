@@ -4,11 +4,14 @@
   import Counter from './lib/Counter.svelte'
   import Banner from './lib/Banner.svelte'
   import Slideshow from './lib/Slideshow.svelte'
+  import Info from './lib/Info.svelte'
 </script>
 <Banner/>
 <main>
+  <Info/>
+
   <Slideshow/>
-  
+
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
