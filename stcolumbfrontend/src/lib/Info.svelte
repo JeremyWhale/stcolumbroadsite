@@ -1,5 +1,5 @@
 <script>
-    export let text = "For inquiries contact Alan Whale: 01726 73173";
+    export let text = "For enquiries contact Alan Whale: 01726 73173";
 </script>
 
 <div class="container">
