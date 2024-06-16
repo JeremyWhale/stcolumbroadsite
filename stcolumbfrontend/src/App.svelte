@@ -6,6 +6,7 @@
   import Where from './routes/Where.svelte';
   import Units from './routes/Units.svelte';
   import About from './routes/About.svelte';
+  import Footer from './lib/Footer.svelte';
 </script>
 
 <Router>
@@ -16,6 +17,7 @@
     <Route path="/about" component={About} />
     <Route path="/where" component={Where} />
     <Route path="/units" component={Units} />
+    <Footer/>
   </main>
 </Router>
 
