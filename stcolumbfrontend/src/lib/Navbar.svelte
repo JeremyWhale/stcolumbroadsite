@@ -12,7 +12,9 @@
 
 <nav>
     <div class="nav-links">
-        <span><img src="/St_Columb_Road.png" alt="Home Icon" /></span>
+        <Link to={"/"} on:click={() => activeRoute = "/"}>
+            <span><img src="/St_Columb_Road.png" alt="Home Icon" /></span>
+        </Link>
         {#each routes as route}
             {#if route.name === "Home"}
                 <Link
