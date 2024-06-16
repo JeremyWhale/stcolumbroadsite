@@ -11,33 +11,43 @@
 </script>
 
 <nav>
-    <span><img src="/St_Columb_Road.png" alt="Home Icon" /></span>
-    {#each routes as route}
-        {#if route.name === "Home"}
-            <Link
-            to={route.path}
-            on:click={() => activeRoute = route.path}
-        >
-            <span class:selected={activeRoute === route.path}>{route.name}</span>
-        </Link>
-        {:else}
-            <Link
-            to={route.path}
-            on:click={() => activeRoute = route.path}
-        >
-            <span class:selected={activeRoute === route.path}>{route.name}</span>
-        </Link>
-        {/if}
-    {/each}
+    <div class="nav-links">
+        <span><img src="/St_Columb_Road.png" alt="Home Icon" /></span>
+        {#each routes as route}
+            {#if route.name === "Home"}
+                <Link
+                to={route.path}
+                on:click={() => activeRoute = route.path}
+            >
+                <span class:selected={activeRoute === route.path}>{route.name}</span>
+            </Link>
+            {:else}
+                <Link
+                to={route.path}
+                on:click={() => activeRoute = route.path}
+            >
+                <span class:selected={activeRoute === route.path}>{route.name}</span>
+            </Link>
+            {/if}
+        {/each}
+    </div>
+    <div class="contact-info">
+        Tel: 01726 73173 or 07733 534 438 | Email: whalecommercial@gmail.com
+    </div>
 </nav>
 
 <style>
     nav {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         padding: 1rem;
         background-color: #cccccc;
         border-radius: 10px;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: center;
     }
 
     a {
@@ -72,6 +82,10 @@
 
     .selected {
         font-weight: bold;
+    }
+
+    .contact-info {
+        display: block;
     }
 
 

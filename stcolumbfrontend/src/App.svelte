@@ -9,8 +9,8 @@
 
 <Router>
   <main>
-    <Navbar/>
     <Banner/>
+    <Navbar/>
     <Route path="/" component={Home} />
     <Route path="/about" component={About} />
     <Route path="/where" component={Where} />
