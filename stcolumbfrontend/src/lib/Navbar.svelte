@@ -5,6 +5,7 @@
 
     const routes = [
         { name: "Home", path: "/" },
+        { name: "Units", path: "/units" },
         { name: "Where to find us", path: "/where" },
         { name: "About", path: "/about" },
     ];
