@@ -1,5 +1,5 @@
 <script>
-    export let text = "Site under construction";
+    export let text = "Website under construction";
 </script>
 
 <style>

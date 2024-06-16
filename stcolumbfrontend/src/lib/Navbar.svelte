@@ -5,8 +5,8 @@
 
     const routes = [
         { name: "Home", path: "/" },
-        { name: "Units", path: "/units" },
-        { name: "Where to find us", path: "/where" },
+        { name: "Units to Rent", path: "/units" },
+        { name: "Find Us", path: "/where" },
         { name: "About", path: "/about" },
     ];
 </script>
@@ -33,6 +33,9 @@
             </Link>
             {/if}
         {/each}
+    </div>
+    <div class="contact-info">
+        For enquiries
     </div>
     <div class="contact-info">
         Tel: 01726 73173 or 07733 534 438 | Email: whalecommercial@gmail.com
