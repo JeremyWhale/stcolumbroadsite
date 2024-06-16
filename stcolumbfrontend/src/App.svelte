@@ -7,6 +7,7 @@
   import Units from './routes/Units.svelte';
   import About from './routes/Aboutus.svelte';
   import Footer from './lib/Footer.svelte';
+  import NotFound from './routes/NotFound.svelte';
 </script>
 
 <Router>
@@ -17,6 +18,7 @@
     <Route path="/about" component={About} />
     <Route path="/where" component={Where} />
     <Route path="/units" component={Units} />
+    <Route path="*" component={NotFound} />
     <Footer/>
   </main>
 </Router>
