@@ -5,6 +5,7 @@
   import Banner from './lib/Banner.svelte'
   import Slideshow from './lib/Slideshow.svelte'
   import Info from './lib/Info.svelte'
+  import Footer from './lib/Footer.svelte'
 </script>
 <Banner/>
 <main>
@@ -33,6 +34,7 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+  <Footer/>
 </main>
 
 <style>
