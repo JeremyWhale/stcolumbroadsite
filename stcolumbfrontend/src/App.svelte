@@ -5,7 +5,7 @@
   import Home from './routes/Home.svelte';
   import Where from './routes/Where.svelte';
   import Units from './routes/Units.svelte';
-  import About from './routes/About.svelte';
+  import About from './routes/Aboutus.svelte';
   import Footer from './lib/Footer.svelte';
 </script>
 
