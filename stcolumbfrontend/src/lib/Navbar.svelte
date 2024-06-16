@@ -39,11 +39,14 @@
 <style>
     nav {
         display: flex;
+        position: sticky;
         flex-direction: column;
         justify-content: center;
         padding: 1rem;
         background-color: #cccccc;
         border-radius: 10px;
+        top: 0;
+        z-index: 1;
     }
     .nav-links {
         display: flex;
