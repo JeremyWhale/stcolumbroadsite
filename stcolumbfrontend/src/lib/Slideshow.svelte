@@ -19,13 +19,12 @@
         currentIndex = (currentIndex + 1) % images.length;
     }
 
-    setInterval(nextSlide, 5000); // Change image every 3 seconds
+    setInterval(nextSlide, 5000); // Change image every 5 seconds
 </script>
 
 <main>
     {#if images.length > 0}
         <img src={images[currentIndex]} alt="Slideshow Image" class="fade" />
-        <button on:click={nextSlide}>Next</button>
     {:else}
         <p>No images found.</p>
     {/if}

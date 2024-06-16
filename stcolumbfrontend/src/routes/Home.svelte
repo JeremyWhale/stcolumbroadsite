@@ -17,9 +17,9 @@
         <p>
             Our aim is to provide our tenants with a work environment centrally located in terms of road access, extremely competitive in terms of price, quality of business space with flexible leases.
         </p>
-        <p>
+    <!--<p>
             Due to the prime location and competitiveness of our units they become available very rarely so if you would like to be listed on our mailing list please enter your details below.
-        </p>
+        </p>-->
     </div>
     <Slideshow/>
 </main>
