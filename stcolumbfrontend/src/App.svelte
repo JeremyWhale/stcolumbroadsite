@@ -4,6 +4,7 @@
   import Navbar from './lib/Navbar.svelte';
   import Home from './routes/Home.svelte';
   import About from './routes/About.svelte';
+  import Where from './routes/Where.svelte';
 </script>
 
 <Router>
@@ -12,6 +13,7 @@
     <Banner/>
     <Route path="/" component={Home} />
     <Route path="/about" component={About} />
+    <Route path="/where" component={Where} />
   </main>
 </Router>
 
