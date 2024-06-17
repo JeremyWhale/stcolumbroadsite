@@ -38,7 +38,8 @@
         For enquiries
     </div>
     <div class="contact-info">
-        Tel: 01726 73173 or 07733 534 438 | Email: whalecommercial@gmail.com
+        Tel: 01726 73173 or 07733 534 438
+        <a href="mailto:whalecommercial@gmail.com">Email: whalecommercial@gmail.com</a>
     </div>
 </nav>
 
