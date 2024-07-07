@@ -12,5 +12,5 @@
 
 <div class="container">
     <h1>Unit 1E</h1>
-    <p>Unit 1E is now available to rent. Contact us for more information. <Link to="/Units">Click here</Link> to learn more.</p>
+    <p>Unit 1E is now available to rent. Contact us for more information. <Link to="/units">Click here</Link> to learn more.</p>
 </div>
