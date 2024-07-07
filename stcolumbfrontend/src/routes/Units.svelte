@@ -9,6 +9,10 @@
     <div class="container">
         <h2>Current Availability</h2>
         <p>Unit 1E is available to rent.</p>
+        <p>The unit is 232sqm (2,500sqft) on a 3 year tenancy agreement at a rental of £1,500 + VAT per calendar month (£18,000 + VAT per annum). The tenancy agreement can be ended by providing 3 months notice to the landlord at any time.</p>
+        <p>There is an additional service charge amount to cover Buildings Insurance currently at £560 + VAT per annum. The service charge is reviewed annually on the 1st of December.</p>             
+        <p>Tenants are responsible for the payment of non-domestic rates on the premises; many occupiers will benefit from small business relief. This information can be obtained from Cornwall Council.</p>
+        <p class="disclaimer">**Rates Subject to Contract**</p>
         <!-- <UnitSlideshow/>-->
         <img src="/IMG_3534.jpg" alt="Image of Site St Columb Road Industrial Units for let" title="Unit-1E-StColumbRoad-Industrial-Units-For-Rent">
         <img src="/IMG_3527.jpg" alt="Image of Site St Columb Road Industrial Units for let" title="Unit-1E-StColumbRoad-Industrial-Units-For-Rent">
@@ -29,5 +33,10 @@
     .container img {
     max-width: 50%;
     height: auto;
+    }
+
+    .disclaimer {
+        font-size: 0.9em;
+        font-weight: bold;
     }
 </style>
