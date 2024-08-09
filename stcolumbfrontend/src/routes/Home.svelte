@@ -1,12 +1,12 @@
 <script lang="ts">
     import Slideshow from '../lib/Slideshow.svelte';
-    import UnitAlert from '../lib/UnitAlert.svelte';
+    //import UnitAlert from '../lib/UnitAlert.svelte';
 </script>
 
 <main>
     <div>
         <h1>Welcome to St Columb Road Workshop Units</h1>
-        <UnitAlert/>
+        <!--<UnitAlert/>-->
         <p>
             St Columb Workshop Units provides commercial property to let in the form of light industrial units in St Columb Road, Cornwall TR9 6PZ
         </p>
